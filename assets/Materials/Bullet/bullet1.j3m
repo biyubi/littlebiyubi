@@ -1,0 +1,14 @@
+Material My Material : MatDefs/SimpleSprite/SimpleSprite.j3md {
+     MaterialParameters {
+        AniTexMap : Repeat Textures/Bullet/bullet2.png
+        numTilesU : 2
+        numTilesV : 1
+        Speed : 6
+     }
+    AdditionalRenderState {
+      Blend Off
+      Wireframe Off
+      DepthTest On
+      AlphaTestFalloff 0.1
+    }
+}

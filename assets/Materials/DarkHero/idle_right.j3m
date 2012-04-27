@@ -1,0 +1,14 @@
+Material My Material : MatDefs/SimpleSprite/SimpleSprite.j3md {
+     MaterialParameters {
+        AniTexMap : Repeat Textures/Enemies/DarkHero/idle_right.png
+        numTilesU : 1
+        numTilesV : 1
+        Speed : 2
+     }
+    AdditionalRenderState {
+      Blend Off
+      Wireframe Off
+      DepthTest On
+        AlphaTestFalloff 0.1
+    }
+}
