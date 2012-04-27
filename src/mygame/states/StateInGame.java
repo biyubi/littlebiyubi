@@ -1,6 +1,18 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+/* ========================================================================
+ * Copyright 2012 Barragan Corte Edgar Tonatiuh & Figueroa Salido Jesus Armando
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ * ========================================================================
  */
 package mygame.states;
 
@@ -11,8 +23,6 @@ import com.jme3.bullet.BulletAppState;
 import com.jme3.bullet.collision.PhysicsCollisionListener;
 import com.jme3.collision.CollisionResult;
 import com.jme3.collision.CollisionResults;
-import com.jme3.font.BitmapFont;
-import com.jme3.font.BitmapText;
 import com.jme3.input.KeyInput;
 import com.jme3.input.MouseInput;
 import com.jme3.input.controls.ActionListener;
@@ -25,12 +35,8 @@ import com.jme3.math.Ray;
 import com.jme3.math.Vector3f;
 import com.jme3.scene.CameraNode;
 import com.jme3.scene.Geometry;
-import com.jme3.scene.Node;
 import com.jme3.scene.Spatial.CullHint;
 import com.jme3.scene.control.CameraControl.ControlDirection;
-import com.jme3.ui.Picture;
-import de.lessvoid.nifty.loaderv2.types.RemoveStandardAttributes;
-import java.awt.Font;
 import java.util.ArrayList;
 import mygame.Defines;
 import mygame.GameState;
